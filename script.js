@@ -36,7 +36,6 @@ const changePicture = () => {
 const playSlidedeshow = () => {
   if (isPlaying === 0) {
     document.getElementById('playButton').innerHTML = "STOP";
-    //不安点
     const intervalFunc = setInterval(changePicture, 2000);
     isPlaying = intervalFunc;
   } else {
